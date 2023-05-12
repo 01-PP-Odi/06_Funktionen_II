@@ -18,7 +18,12 @@
 // output(divide(6,-2));
 // output(divide(3,0));
 function divide(a,b) {
-	return a/b;
+
+	if (b != 0) {
+		return a/b;
+	} else {
+		return "Teilen durch 0 nicht möglich"
+	}
 }
 
 // module: multiply a*b | test
