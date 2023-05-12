@@ -11,7 +11,14 @@
 4. Ausgabe in Konsole : check!
 */
 
+// module: multiply a*b | test
 
+output(multiply(3,2));
+output(multiply(3,-2));
+output(multiply(3,0));
+function multiply(a,b) {
+	return a*b;
+}
 
 
 
