@@ -13,6 +13,7 @@
 
 // module: divide a/b | test
 
+// output(divide(4,2));
 // output(divide(3,2));
 // output(divide(6,-2));
 // output(divide(3,0));
